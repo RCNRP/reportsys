@@ -1,0 +1,18 @@
+available = {"1", "2", "3", "4", "5"}
+
+if next(available) == nil then
+  admin:PrintColor(Color( 255, 0, 0 ), "Reports ", Color( 255, 255, 255 ), "| No available sit areas at this time!")
+else
+  next(available) = num
+  if num == "1" then
+    
+  else if num == "2" then
+  
+  else if num == "3" then
+  
+  else if num == "4" then
+  
+  else if num == "5" then
+  
+  end
+end
